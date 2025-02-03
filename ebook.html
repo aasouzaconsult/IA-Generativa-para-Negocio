@@ -81,11 +81,15 @@
                 return;
             }
 
-            // Enviar e-mail via FormSubmit
+            // Enviar e-mail via FormSubmit com assunto personalizado
             fetch("https://formsubmit.co/ajax/aasouzaconsult@gmail.com", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ email: email, message: "Novo download do e-book!" })
+                body: JSON.stringify({ 
+                    email: email, 
+                    subject: "Novo Pedido de Download do E-book", 
+                    message: `O usuário com e-mail ${email} solicitou o download do e-book.`
+                })
             })
             .then(response => response.json())
             .then(data => {
@@ -95,5 +99,6 @@
             .catch(error => console.error("Erro ao enviar e-mail:", error));
         });
     </script>
+
 </body>
 </html>
