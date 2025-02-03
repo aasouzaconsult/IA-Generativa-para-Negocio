@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixe seu E-book</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .button {
+            background-color: #1d3557;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #457b9d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="ebook-capa.jpg" alt="Capa do E-book">
+        <form id="ebookForm">
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            <button type="submit" class="button">Baixe aqui seu E-book!</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("ebookForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            let email = document.getElementById("email").value;
+            
+            if (email.trim() === "") {
+                alert("Por favor, insira um e-mail válido.");
+                return;
+            }
+
+            // Enviar e-mail via FormSubmit
+            fetch("https://formsubmit.co/ajax/aasouzaconsult@gmail.com", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email: email, message: "Novo download do e-book!" })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Disponibilizar o download do e-book
+                window.location.href = "ebook.pdf";
+            })
+            .catch(error => console.error("Erro ao enviar e-mail:", error));
+        });
+    </script>
+</body>
+</html>
