@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="30" font-weight="bold" font-size="20">Business Model Canvas - Curso Gratuito de IA Generativa</text>
+    
+    <!-- Grid principal -->
+    <g fill="white" stroke="black">
+        <!-- Parcerias Principais -->
+        <rect x="50" y="50" width="180" height="200"/>
+        <text x="60" y="70" font-weight="bold" font-size="14">Parcerias Principais</text>
+        <text x="60" y="90" font-size="12">
+            <tspan x="60" dy="15">• Plataformas de transmissão</tspan>
+            <tspan x="60" dy="15">• Comunidades profissionais</tspan>
+            <tspan x="60" dy="15">• Associações de classe</tspan>
+            <tspan x="60" dy="15">• Profissionais convidados</tspan>
+            <tspan x="60" dy="15">• Especialistas do setor</tspan>
+        </text>
+
+        <!-- Atividades-Chave -->
+        <rect x="230" y="50" width="180" height="200"/>
+        <text x="240" y="70" font-weight="bold" font-size="14">Atividades-Chave</text>
+        <text x="240" y="90" font-size="12">
+            <tspan x="240" dy="15">• Preparação do conteúdo</tspan>
+            <tspan x="240" dy="15">• Aulas ao vivo</tspan>
+            <tspan x="240" dy="15">• Engajamento com alunos</tspan>
+            <tspan x="240" dy="15">• Divulgação do curso</tspan>
+            <tspan x="240" dy="15">• Gestão da comunidade</tspan>
+        </text>
+
+        <!-- Proposta de Valor -->
+        <rect x="410" y="50" width="180" height="400"/>
+        <text x="420" y="70" font-weight="bold" font-size="14">Proposta de Valor</text>
+        <text x="420" y="90" font-size="12">
+            <tspan x="420" dy="15">• Curso ao vivo e gratuito</tspan>
+            <tspan x="420" dy="15">  sobre IA Generativa</tspan>
+            <tspan x="420" dy="15">• Conhecimento prático</tspan>
+            <tspan x="420" dy="15">• Interação em tempo real</tspan>
+            <tspan x="420" dy="15">• Networking profissional</tspan>
+            <tspan x="420" dy="15">• Democratização do</tspan>
+            <tspan x="420" dy="15">  conhecimento em IA</tspan>
+        </text>
+
+        <!-- Relacionamento -->
+        <rect x="590" y="50" width="180" height="200"/>
+        <text x="600" y="70" font-weight="bold" font-size="14">Relacionamento</text>
+        <text x="600" y="90" font-size="12">
+            <tspan x="600" dy="15">• Interação ao vivo</tspan>
+            <tspan x="600" dy="15">• Grupo WhatsApp/Telegram</tspan>
+            <tspan x="600" dy="15">• Comunidade LinkedIn</tspan>
+            <tspan x="600" dy="15">• Materiais gratuitos</tspan>
+            <tspan x="600" dy="15">• QeA Sessions</tspan>
+        </text>
+
+        <!-- Segmentos de Clientes -->
+        <rect x="770" y="50" width="180" height="400"/>
+        <text x="780" y="70" font-weight="bold" font-size="14">Segmentos de Clientes</text>
+        <text x="780" y="90" font-size="12">
+            <tspan x="780" dy="15">• RH e Des. Humano</tspan>
+            <tspan x="780" dy="15">• Coaches/Consultores</tspan>
+            <tspan x="780" dy="15">• Profissionais do Agro</tspan>
+            <tspan x="780" dy="15">• Profissionais da Saúde</tspan>
+            <tspan x="780" dy="15">• Educadores</tspan>
+            <tspan x="780" dy="15">• Gestores Admin.</tspan>
+            <tspan x="780" dy="15">• Autônomos</tspan>
+        </text>
+
+        <!-- Recursos Principais -->
+        <rect x="230" y="250" width="180" height="200"/>
+        <text x="240" y="270" font-weight="bold" font-size="14">Recursos Principais</text>
+        <text x="240" y="290" font-size="12">
+            <tspan x="240" dy="15">• Plataforma de transmissão</tspan>
+            <tspan x="240" dy="15">• Material didático</tspan>
+            <tspan x="240" dy="15">• Conhecimento técnico</tspan>
+            <tspan x="240" dy="15">• Internet estável</tspan>
+            <tspan x="240" dy="15">• Equipamentos</tspan>
+        </text>
+
+        <!-- Canais -->
+        <rect x="590" y="250" width="180" height="200"/>
+        <text x="600" y="270" font-weight="bold" font-size="14">Canais</text>
+        <text x="600" y="290" font-size="12">
+            <tspan x="600" dy="15">• Zoom/Meet</tspan>
+            <tspan x="600" dy="15">• Redes sociais</tspan>
+            <tspan x="600" dy="15">• WhatsApp/Telegram</tspan>
+            <tspan x="600" dy="15">• LinkedIn</tspan>
+            <tspan x="600" dy="15">• Parcerias profissionais</tspan>
+        </text>
+
+        <!-- Estrutura de Custos -->
+        <rect x="50" y="450" width="450" height="100"/>
+        <text x="60" y="470" font-weight="bold" font-size="14">Estrutura de Custos</text>
+        <text x="60" y="490" font-size="12">
+            <tspan x="60" dy="15">• Plataforma de transmissão</tspan>
+            <tspan x="60" dy="15">• Equipamentos básicos</tspan>
+            <tspan x="60" dy="15">• Internet e infraestrutura</tspan>
+        </text>
+
+        <!-- Fontes de Receita -->
+        <rect x="500" y="450" width="450" height="100"/>
+        <text x="510" y="470" font-weight="bold" font-size="14">Fontes de Receita</text>
+        <text x="510" y="490" font-size="12">
+            <tspan x="510" dy="15">• Sem receita direta (curso gratuito)</tspan>
+            <tspan x="510" dy="15">• Benefícios: Autoridade no tema, Networking</tspan>
+            <tspan x="510" dy="15">• Base para projetos futuros</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold">Persona: Maria Silva</text>
+    
+    <!-- Círculo para foto/avatar -->
+    <circle cx="400" cy="150" r="70" fill="#E6E6E6" stroke="#333333"/>
+    <text x="400" y="165" text-anchor="middle" font-size="60">👩</text>
+
+    <!-- Informações Básicas -->
+    <rect x="50" y="250" width="700" height="300" fill="none" stroke="#333333" rx="10"/>
+    
+    <!-- Coluna Esquerda -->
+    <g font-size="16">
+        <text x="80" y="290" font-weight="bold">Perfil Básico</text>
+        <text x="80" y="320">• Idade: 42 anos</text>
+        <text x="80" y="350">• Gestora de RH</text>
+        <text x="80" y="380">• Pós-graduada em Gestão de Pessoas</text>
+        <text x="80" y="410">• Casada, 2 filhos</text>
+        <text x="80" y="440">• São Paulo, SP</text>
+        
+        <text x="80" y="480" font-weight="bold">Desafios</text>
+        <text x="80" y="510">• Adaptar-se às mudanças tecnológicas</text>
+        <text x="80" y="540">• Otimizar processos de RH</text>
+    </g>
+
+    <!-- Coluna Direita -->
+    <g font-size="16">
+        <text x="400" y="290" font-weight="bold">Objetivos</text>
+        <text x="400" y="320">• Implementar IA nos processos de RH</text>
+        <text x="400" y="350">• Manter-se competitiva no mercado</text>
+        <text x="400" y="380">• Melhorar produtividade da equipe</text>
+
+        <text x="400" y="420" font-weight="bold">Comportamentos</text>
+        <text x="400" y="450">• Busca constante por atualização</text>
+        <text x="400" y="480">• Ativa em redes profissionais</text>
+        <text x="400" y="510">• Participa de eventos da área</text>
+    </g>
+</svg>
